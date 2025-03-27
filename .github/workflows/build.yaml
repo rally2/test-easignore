@@ -18,7 +18,7 @@ on:
         options:
           - ios
           - android
-          - both
+          - both43
 
 jobs:
   build:

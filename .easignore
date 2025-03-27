@@ -27,4 +27,5 @@ expo-env.d.ts
 ios
 android
 
-app.config.ts
+# Tell EAS to NOT ignore this file
+!app.config.ts

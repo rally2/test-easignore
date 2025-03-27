@@ -18,7 +18,8 @@
     "eas:build:prod:android": "APP_ENV=production eas build --wait --platform=android --profile=production --clear-cache",
     "eas:build:prod:all": "APP_ENV=production eas build --wait --platform=all --profile=production --clear-cache",
     "eas:submit:staging:ios": "APP_ENV=staging eas submit --profile=staging --platform=ios --latest --verbose",
-    "eas:submit:prod:ios": "APP_ENV=production eas submit --profile=production --platform=ios --latest --verbose"
+    "eas:submit:prod:ios": "APP_ENV=production eas submit --profile=production --platform=ios --latest --verbose",
+    "setup:config": "cp config/app.config.ts app.config.ts"
   },
   "jest": {
     "preset": "jest-expo"

@@ -7,7 +7,7 @@
     "clean": "rm -rf node_modules && rm -rf package-lock.json",
     "typecheck": "tsc",
     "generate:sb": "sb-rn-get-stories -js",
-    "eas:build:develop:ios": "APP_ENV=development eas build --wait --platform=ios --profile=development",
+    "eas:build:develop:ios": "APP_ENV=development bun setup:config && eas build --wait --platform=ios --profile=development",
     "eas:build:develop:ios:sim": "APP_ENV=development eas build --wait --platform=ios --profile=development:sim",
     "eas:build:develop:android": "APP_ENV=development eas build --wait --platform=ios --profile=development",
     "eas:build:develop:all": "APP_ENV=development eas build --wait --platform=ios --profile=development",
